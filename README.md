@@ -30,11 +30,24 @@ Dalam program GUI **Daftar Mahasiswa** ini berisi penambahan-penambahan dari fil
 - **Penambahan _Confirmation Prompt_** setelah Add data, sebelum Delete data, dan setelah klik button Exit.
 
 Deskripsi Button yang ada:
-- **Add** : Button untuk menambahkan data yang telah diisi pada form ke tabel
-- **Cancel** : Button untuk me-reset isi form jika terdapat data pada form
-- **Update** : Button untuk meng-update/mengganti data yang sudah tertera pada tabel, akan muncul ketika user memilih/meng-klik salah satu baris pada tabel
-- **Delete** : Button untuk menghapus data pada tabel di baris yang dipilih user
-- **Exit** : Button untuk keluar dari program GUI
+1. **Add** : Button untuk menambahkan data yang telah diisi pada form ke tabel
+2. **Cancel** : Button untuk me-reset isi form jika terdapat data pada form
+3. **Update** : Button untuk meng-update/mengganti data yang sudah tertera pada tabel, akan muncul ketika user memilih/meng-klik salah satu baris pada tabel
+4. **Delete** : Button untuk menghapus data pada tabel di baris yang dipilih user
+5. **Exit** : Button untuk keluar dari program GUI
+
+## Alur Program
+- Add data
+
+User dapat menambahkan data mahasiswa dengan mengisi form yang terdiri dari textfield NIM, Nama, dan Nilai serta memilih salah satu pilihan pada Dropdown Gender. Kemudian user dapat mengklik tombol ***add*** sehingga data yang diisi akan ditampilkan pada tabel di bawahnya. Jika user mengklik tombol ***Cancel***, maka data yang terisi pada form akan di-reset dan user harus mengisi ulang datanya.
+
+- Delete data
+
+User dapat menghapus data mahasiswa dengan memilih/klik salah satu baris data yang ingin dihapus pada tabel, kemudian klik tombol ***Delete***. Setelah klik tombol delete akan muncul ***Delete Confirmation Prompt*** untuk user, yang jika memilih _YES_ maka data akan terhapus dan muncul alert bahwa data berhasil terhapus dan tidak tertera pada tabel lagi, jika memillih _NO_ maka data tidak terhapus dan masih tertera pada tabel.
+
+- Update data
+
+User dapat melakukan update data, yaitu dengan memilih/klik salah satu baris data yang ingin di-update pada tabel kemudian pada form akan terisi data yang terpilih. User dapat mengganti isi data pada form (baik pada textfield dan dropdown), kemudian klik tombol ***UPDATE*** dan data pada baris yang dipilih di tabel akan ter-update.
 
 ## Dokumentasi Program
 #### _Result Design_
