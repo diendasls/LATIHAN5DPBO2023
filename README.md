@@ -17,9 +17,30 @@ Result:
 
 
 ## Deskripsi Desain Program
-Program dibagi menjadi 3 class yaitu Manusia, SivitasAkademik, dan Mahasiswa. Manusia merupakan **parent** (Superclass), SivitasAkademik merupakan **child dari Manusia** (derived class 1), dan Mahasiswa merupakan **child dari SivitasAkademik** (derived class 2). Program didesain seperti berikut dikarenakan tiap class secara objek merupakan jenis objek yang sama—yaitu *Manusia*—yang mana Mahasiswa merupakan bagian dari Sivitas Akademik, pula Sivitas Akademik merupakan bagian dari Manusia, sehingga terdapat hubungan inheritance.
+#### Design pada Apache Netbeans
+![design](https://user-images.githubusercontent.com/101309423/226916658-9ac46e07-37e5-4f1f-98c7-1266f5a18e4a.jpg)
 
+
+Dalam program GUI **Daftar Mahasiswa** ini berisi penambahan-penambahan dari file starter project di atas, diantaranya:
+
+- **Penambahan _Gender_** dengan menggunakan salah satu swing controls yaitu Combo Box(Dropdown), yang kemudian akan muncul sebagai hasil baru pada kolom Gender dalam tabel.
+- **Penambahan _Button Exit Program_** di bagian kanan bawah untuk exit program dengan adanya _Confirmation Prompt_.
+- **Penambahan metode untuk _Reset Form_**, dengan klik button _Cancel_ menggunakan prosedur resetForm().
+- **Adanya Fitur _Refresh Table_** dalam bentuk _Update_ dan _Delete_ data form.
+- **Penambahan _Confirmation Prompt_** setelah Add data, sebelum Delete data, dan setelah klik button Exit.
+
+Deskripsi Button yang ada:
+- **Add** : Button untuk menambahkan data yang telah diisi pada form ke tabel
+- **Cancel** : Button untuk me-reset isi form jika terdapat data pada form
+- **Update** : Button untuk meng-update/mengganti data yang sudah tertera pada tabel, akan muncul ketika user memilih/meng-klik salah satu baris pada tabel
+- **Delete** : Button untuk menghapus data pada tabel di baris yang dipilih user
+- **Exit** : Button untuk keluar dari program GUI
 
 ## Dokumentasi Program
+#### _Result Design_
+![doc1](https://user-images.githubusercontent.com/101309423/226895417-4f787fcd-8b7f-433a-861e-147b94643bcc.jpg)
 
+#### _Record_
+
+https://user-images.githubusercontent.com/101309423/226909640-cba99a79-c21b-4546-b7b6-dacb0a5a4bce.mp
 
